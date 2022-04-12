@@ -34,14 +34,14 @@ class Config(object):
     PROCESS_MAX_TIMEOUT = 100000
     # watermark file
     DEF_WATER_MARK_FILE = "© @MJNewRelease"
-    SHORT_LINK_API_URL = os.environ.get("SHORT_LINK_API_URL", "https://za.gl/api")
+    SHORT_LINK_API_URL = os.environ.get("SHORT_LINK_API_URL", "")
     SHORT_LINK_API_KEY = os.environ.get("SHORT_LINK_API_KEY", "")
     IS_TEAM_DRIVE = True
     USE_SERVICE_ACCOUNTS = True
     INDEX_URL = "https://filestream.webshacks.workers.dev/0:"
     parent_id = "0AIPy88fEh11tUk9PVA"
-    STRIP_FILE_NAMES = os.environ.get("STRIP_FILE_NAMES","www.1TamilMV.life - |www.1TamilMV.life -|www.1TamilMV.org - |www.1TamilMV.org -|www.1TamilMV.xyz - |www.1TamilMV.xyz -|@MoviesFlixers_DL|@TellyFun_Official|[MM].|[MM]|[MM] -|www_Telugupalaka_com|@MM_New|@MM_Links|@MM_Linkz|www.TamilRockers.ws -|@Animationmovies|HT_BEATS_|-@lubokvideo|@lubokvideo|@english_movieschannel_|@english_movieschannel|@themovies_channel_|@themovies_channel|@telugu_bluray|@TVshows_HD|[Movies Vip]|[CC].|[CC]|@CC_Links.|@CC_Links|@CC_x265.|@CC_x265|@CC.|@CC|@CC_ALL|@CPR_|@CPR|Moviez_India.|Moviez_India")
+    STRIP_FILE_NAMES = os.environ.get("")
     CHANNEL_URL = "@MJNewRelease"
     # Sql Database url
-    DB_URI = "postgres://upkvjoduavonpd:e89e8af580ca1292251f405450d91c6e0a633ba0395e9cc44f178aff25f5deeb@ec2-52-48-159-67.eu-west-1.compute.amazonaws.com:5432/dfr8j2f3erinl8"
+    DB_URI = ""
     
