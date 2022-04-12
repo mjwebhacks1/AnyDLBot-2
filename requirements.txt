@@ -1,6 +1,6 @@
 aiohttp
 beautifulsoup4
-git://github.com/google/chatbase-python.git
+chatbase-python
 hachoir
 numpy
 Pillow
