@@ -1,6 +1,5 @@
 aiohttp
 beautifulsoup4
-chatbase-python
 hachoir
 numpy
 Pillow
